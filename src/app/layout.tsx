@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat, Manrope } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const mainFontFamily = Manrope({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-});
-
-const secondaryFontFamily = Montserrat({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
 });
 
